@@ -7,6 +7,9 @@ from asteroidfield import AsteroidField
 from shot import Shot
 
 def main():
+    print("Starting Asteroids with pygame version: VERSION")
+    print(f"Screen width: {SCREEN_WIDTH}")
+    print(f"Screen height: {SCREEN_HEIGHT}")
     pygame.init()
     clock = pygame.time.Clock()
     dt = 0
